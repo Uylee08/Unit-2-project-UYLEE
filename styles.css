@@ -1,0 +1,97 @@
+/* The code from lines 2-4 puts the title of the website in the center */
+body {
+    background-color: #dce3fa;
+}
+
+.title {
+    text-align: center;
+    background-color: lightblue;
+    text-shadow: 2px 2px red;
+    font-family: "Trirong", serif;
+}
+
+/* The code from lines 6-10 adds the black background-color and white text color for each section heading. If you want to change the color of the section headers, change this code!*/
+div {
+    color: white;
+    text-align: center;
+    background-color: pink;
+    font-family: 'Italianno', cursive;
+}
+
+.pic3 {
+    width: 440px;
+    border: 20px dotted gray;
+    padding: 5px;
+    margin: 5px;
+}
+
+.pic4 {
+    width: 520px;
+    border: 20px dotted gray;
+    padding: 5px;
+    margin: 5px;
+}
+
+.space1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.yellow {
+    border: 5px dashed #f58b6e;
+
+}
+
+.blue {
+    border: 5px dashed lightblue;
+}
+
+.space2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.picturemiddle1 {
+    width: 430px;
+    border: 20px dotted #cae0cc;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 50%;
+}
+
+.picturemiddle2 {
+    width: 405px;
+    border: 20px dotted #cae0cc;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 50%;
+}
+
+.white {
+    border: 5px dashed white;
+}
+
+.picbottom {
+    width: 440px;
+    border: 20px dotted #dcbce0;
+    padding: 5px;
+    margin: 5px;
+}
+
+.picbottom2 {
+    width: 440px;
+    border: 20px dotted #dcbce0;
+    padding: 5px;
+    margin: 5px;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-around;
+}
+button{
+	padding:15px;
+    background-color:pink;
+    color:white;
+
+}
